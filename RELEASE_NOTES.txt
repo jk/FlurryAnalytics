@@ -1,11 +1,32 @@
-Flurry SDK v4.0.6
-Released: 10/15/12
-
-Release notes for v4.0.6:
+Release Notes for 4.1.0:
 ------------------------------------------------
+- Support for Mraid v1.0 specification.
+- Fixes issue when app backgrounded with video confirmation dialog showing.
 
-1. Updates ads from mediation networks to center within a view when the view is larger than the ad frame
-2. Fixes issue in landscape only apps where ad rotation can cause future alerts to appear in portrait
+Release Notes for 4.0.9
+------------------------------------------------
+- Incorporates additional ids for better conversion and ad tracking.
+
+Release Notes for 4.0.8
+------------------------------------------------
+- Fixes issue on letterboxed apps on iPhone 5. The close button on videos became non- responsive in landscape.
+
+Release Notes for 4.0.7
+------------------------------------------------
+- Updates initial display for autoplay videos
+- Updates video to disable FullScreen mode button
+- Fixes scenario where ad showing in landscape can initially appear with portrait layout
+- Updates to only reset window state for mraid ads if the ad was previously expanded
+- Fixes crash related to UIPasteboard
+
+
+Release Notes for 4.0.6
+------------------------------------------------
+- Updates ads from mediation networks to center within a view when the view is larger than the ad frame
+- Fixes issue in landscape only apps where ad rotation can cause future alerts to appear in portrait
+
+Flurry SDK v4.0.5
+Released: 10/03/12
 
 Release notes for v4.0.5:
 ------------------------------------------------
